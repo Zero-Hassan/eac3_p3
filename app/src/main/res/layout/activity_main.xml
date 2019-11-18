@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/homer_image"
+        android:layout_width="264dp"
+        android:layout_height="526dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homer_simpson" />
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="284dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        android:onClick="trigger_gearas"
+        />
+
+    <ImageView
+        android:id="@+id/donut_image"
+        android:layout_width="122dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342"
+        app:srcCompat="@drawable/donut"
+        android:onClick="play_sound"
+        />
+
+    <ImageView
+        android:id="@+id/ull_image"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homer_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="@+id/homer_image"
+        app:layout_constraintTop_toTopOf="@+id/homer_image"
+        app:layout_constraintVertical_bias="0.457"
+        app:srcCompat="@drawable/ull" />
+
+    <ImageView
+        android:id="@+id/eng_vermell_image"
+        android:layout_width="123dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homer_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/homer_image"
+        app:layout_constraintTop_toTopOf="@+id/homer_image"
+        app:layout_constraintVertical_bias="0.241"
+        app:srcCompat="@drawable/engranatge_vermell"
+
+        />
+
+    <ImageView
+        android:id="@+id/eng_verd_image"
+        android:layout_width="86dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homer_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="@+id/homer_image"
+        app:layout_constraintTop_toTopOf="@+id/homer_image"
+        app:layout_constraintVertical_bias="0.336"
+        app:srcCompat="@drawable/engranatge_verd" />
+
+    <ImageView
+        android:id="@+id/eng_blau_image"
+        android:layout_width="91dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homer_image"
+        app:layout_constraintEnd_toEndOf="@+id/homer_image"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/homer_image"
+        app:layout_constraintTop_toTopOf="@+id/homer_image"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/engranatge_blau" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

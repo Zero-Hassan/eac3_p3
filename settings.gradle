@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='EAC3_P3_Zerouali_Hassan'
